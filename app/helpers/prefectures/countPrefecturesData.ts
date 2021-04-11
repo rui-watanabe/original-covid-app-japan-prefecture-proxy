@@ -1,4 +1,5 @@
-import { prefectureCountType } from "./remakePrefectures";
+import prefectureData from '../../../prefectureData.json';
+type prefectureCountType = typeof prefectureData.data.hokkaido.hospitalize;
 
 const countPrefecturesData = (
   object: prefectureCountType,

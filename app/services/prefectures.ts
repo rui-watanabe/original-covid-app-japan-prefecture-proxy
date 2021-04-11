@@ -1,7 +1,6 @@
 import axios from 'axios';
 import prefectureApiData from '../../prefectureApiData.json';
 import remakePrefectures from '../helpers/prefectures/remakePrefectures';
-import * as dotenv from 'dotenv';
 import { prefecturesApiHost } from '../app';
 
 export type PREFECTUREAPIDATA = typeof prefectureApiData;

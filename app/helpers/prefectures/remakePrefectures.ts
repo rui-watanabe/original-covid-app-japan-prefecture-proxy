@@ -4,7 +4,6 @@ import separatePrefecturesData from "./separatePrefecturesData";
 
 type prefecturesDataType = typeof prefectureData.data;
 type prefectureDataType = typeof prefectureData.data.hokkaido;
-export type prefectureCountType = typeof prefectureData.data.hokkaido.hospitalize;
 export type prefectureDataTypeKeyString = {
   [key: string]: prefectureDataType;
 };
